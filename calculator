@@ -1,0 +1,27 @@
+// input
+var answer = prompt("Enter a number");
+var choice = prompt("Choose one: addition (+), subtraction (-), multiplication (*), division (/)");
+var answer2 = prompt("Enter a second number");
+
+// functions
+var addition = answer + answer2
+var subtraction = answer - answer2
+var multiplication = answer * answer2
+var division = answer / answer2
+
+// output
+if (choice = "+") {
+    console.log(addition)
+}
+else if (choice = "-") {
+    console.log(addition)
+}
+else if (choice = "*") {
+    console.log(addition)
+}
+else if (choice = "/") {
+    console.log(addition)
+}
+else {
+    console.log("ERROR, choose a proper function")
+}
